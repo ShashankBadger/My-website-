@@ -1,0 +1,127 @@
+.skill__subtitle {
+  color: var(--clr-slate800);
+  font-size: var(--size-sm);
+  text-align: center;
+}
+
+.skill__title {
+  font-size: var(--size-2xl);
+  color: var(--clr-lighter);
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skill__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding:0; 
+}
+
+.skill__list {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.skill__name {
+  width: 1rem;
+  color: var(--clr-slate400);
+  font-size: var(--size-sm);
+}
+
+.skill__per {
+  color: var(--clr-slate400);
+  font-size: var(--size-sm);
+}
+
+.skill__list .skill__pro {
+  width: 50%;
+  height: 10px;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.skill__list .skill__pro span {
+  position: absolute;
+  height: 100%;
+  background-color: var(--clr-slate800);
+}
+
+@media (min-width:470px){
+  .skill__subtitle {
+    font-size: var(--size-base);
+  }
+  
+  .skill__title {
+    font-size: var(--size-3xl);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skill__ul {
+    gap: 1rem;
+  }
+  
+  .skill__name {
+    font-size: var(--size-base);
+  }
+  
+  .skill__per {
+    font-size: var(--size-base);
+  }
+}
+/*
+@media (min-width:640px){}
+@media (min-width:768px){}
+*/
+@media (min-width:1024px){
+    .skill__subtitle {
+    font-size: var(--size-lg);
+  }
+  
+  .skill__title {
+    font-size: var(--size-4xl);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skill__ul {
+    gap: 1.5rem;
+  }
+  
+  .skill__name {
+    font-size: var(--size-lg);
+  }
+  
+  .skill__per {
+    font-size: var(--size-lg);
+  }
+}
+@media (min-width:1280px){
+   .skill__subtitle {
+     font-size: var(--size-xl);
+   }
+  
+   .skill__title {
+     font-size: var(--size-5xl);
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+   }
+  
+   .skill__ul {
+     gap: 1.5rem;
+   }
+  
+   .skill__name {
+     font-size: var(--size-xl);
+   }
+  
+   .skill__per {
+     font-size: var(--size-xl);
+   }
+}
+/*
+@media (min-width:1536px){}*/
